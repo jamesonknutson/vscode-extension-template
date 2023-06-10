@@ -1,0 +1,46 @@
+{
+  "activationEvents": [
+    "onCommand:vscode-extension-template.helloWorld"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-extension-template.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "displayName": "vscode-extension-template",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "main": "./out/extension.js",
+  "name": "vscode-extension-template",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "lint": "eslint src --ext ts",
+    "vscode:prepublish": "pnpm run compile",
+    "watch": "tsc -watch -p ./"
+  },
+  "version": "0.0.1",
+  "author": "jamesonknutson",
+  "description": "Template Repository for new VSCode Extension Projects",
+  "devDependencies": {
+    "@jamesonknutson/eslint-config": "^1.0.0",
+    "@jamesonknutson/tsconfig": "^1.0.0",
+    "@types/node": "~16.18.35",
+    "@types/vscode": "^1.79.0",
+    "tslib": "^2.5.3",
+    "type-fest": "latest",
+    "typescript": "next"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesonknutson/vscode-extension-template.git"
+  }
+}

@@ -1,0 +1,17 @@
+# ignore node_modules
+node_modules
+node_modules/
+node_modules/**
+**/node_modules
+
+# ignore dist/out
+dist
+dist/**
+**/dist
+out
+out/**
+**/out
+
+# ignore .d.ts, .js.map
+*.d.ts
+*.js.map
