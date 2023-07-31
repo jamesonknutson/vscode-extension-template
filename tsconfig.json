@@ -1,19 +1,15 @@
 {
-  "extends": [
-    "@jamesonknutson/tsconfig"
-  ],
+  "extends": "@jamesonknutson/tsconfig",
   "compilerOptions": {
     "outDir": "out",
-    "sourceRoot": "src/"
+    "declaration": false,
+    "declarationMap": false,
+    "sourceRoot": "src/",
+    "moduleResolution": "Node16",
+    "module": "Node16"
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "types",
-    "out",
-    "*.d.ts"
-  ],
   "include": [
-    "src/"
+    "src/*.ts",
+    "src/**/*.ts"
   ]
 }
