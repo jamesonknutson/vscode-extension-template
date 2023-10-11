@@ -1,9 +1,0 @@
-{
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#1857a477",
-    "statusBarItem.hoverBackground": "#1f6fd077",
-    "statusBarItem.remoteBackground": "#1857a477"
-  },
-  "peacock.color": "#1857a477",
-  "github.copilot.inlineSuggest.enable": false
-}
