@@ -33,7 +33,8 @@
     "watch": "tsc -watch -p ./",
     "generate-schema": "typescript-json-schema ./src/configuration.ts TConfiguration --refs false --aliasRefs false --topRef false --required true --strictNullChecks true --out ./configuration-json-schema.json",
     "generate-vscode-types": "typed-vscode generate --out src/generated.ts",
-    "package": "vsce package --out ./packages"
+    "package": "vsce package --out ./packages",
+    "postinstall": "prettier-eslint ./src/**/*.ts"
   },
   "version": "0.0.1",
   "author": "jamesonknutson",
