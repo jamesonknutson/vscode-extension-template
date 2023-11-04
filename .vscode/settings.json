@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#61dafb88",
+    "statusBarItem.hoverBackground": "#2fcefa88",
+    "statusBarItem.remoteBackground": "#61dafb88"
+  },
+  "peacock.color": "#61dafb88",
+  "github.copilot.inlineSuggest.enable": true
+}
