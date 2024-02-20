@@ -2,7 +2,6 @@
   "extends": "@jamesonknutson/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
-    "sourceRoot": "src/",
     "moduleResolution": "Node16",
     "module": "Node16"
   },

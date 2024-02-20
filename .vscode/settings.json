@@ -2,8 +2,23 @@
   "workbench.colorCustomizations": {
     "statusBar.background": "#61dafb88",
     "statusBarItem.hoverBackground": "#2fcefa88",
-    "statusBarItem.remoteBackground": "#61dafb88"
+    "statusBarItem.remoteBackground": "#61dafb88",
+    "titleBar.activeBackground": "#61dafb88",
+    "titleBar.inactiveBackground": "#61dafb99"
   },
   "peacock.color": "#61dafb88",
-  "github.copilot.inlineSuggest.enable": true
+  "github.copilot.inlineSuggest.enable": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "hide-files.files": []
 }

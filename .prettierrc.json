@@ -15,5 +15,6 @@
   "jsdocDescriptionTag": false,
   "jsdocPreferCodeFences": true,
   "jsdocPrintWidth": 100,
-  "jsdocSingleLineComment": false
+  "jsdocSingleLineComment": false,
+  "embeddedLanguageFormatting": "off"
 }
