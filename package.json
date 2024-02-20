@@ -31,7 +31,7 @@
     "package": "vsce package --out ./packages",
     "postinstall": "prettier-eslint ./src/**/*.ts"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "jamesonknutson",
   "devDependencies": {
     "@jamesonknutson/eslint-config": "^1.0.15",
